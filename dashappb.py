@@ -1,7 +1,7 @@
 # import the necessary libraries
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import plotly_express as px
 
 # load the datasets
 airlines = pd.read_csv("https://raw.githubusercontent.com/jpatokal/openflights/master/data/airlines.dat",
